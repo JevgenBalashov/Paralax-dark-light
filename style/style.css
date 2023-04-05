@@ -45,7 +45,10 @@ div.header-info {
     background-color: white;
     margin-top: 30px;
     position: absolute;
-    /* transform: translateZ(0); */
+}
+
+a.header-main-link {
+    text-decoration: none;
 }
 
 p.header-title {
@@ -54,8 +57,6 @@ p.header-title {
     color: rgba(66, 79, 87, 1);
     line-height: 36px;
     margin: 40px 0 40px 200px ;
-    /* position: absolute;
-    transform: translateZ(-1px); */
 }
 
 p span {
@@ -210,6 +211,10 @@ p.second-section-paragraph {
     text-align: center;
 }
 
+a.logo-link {
+    text-decoration: none;
+}
+
 div.second-section-main-content {
     display: grid;
     grid-template-columns: repeat(4, 225px);
@@ -300,6 +305,18 @@ p.card-info {
 div.third-section-about-card {
     display: flex;
     justify-content: space-around;
+}
+
+a.card-link {
+    text-decoration: none;
+}
+
+a.card-link:visited {
+    color: rgb(0, 0, 0);
+}
+
+a.card-link:active {
+    color: rgba(20, 175, 202, 1);
 }
 
 /* ----------------------- */
@@ -416,3 +433,6 @@ p span.footer-span {
     font-size: 16px;
 }
 
+a.footer-link {
+    text-decoration: none;
+}
