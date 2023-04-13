@@ -265,7 +265,6 @@ div.third-section-content {
     margin-top: 130px;
     width: 1100px;
     height: 500px;
-    /* background-color: aliceblue; */
 }
 
 h2.third-section-title {
@@ -309,14 +308,6 @@ div.third-section-about-card {
 
 a.card-link {
     text-decoration: none;
-}
-
-a.card-link:visited {
-    color: rgb(0, 0, 0);
-}
-
-a.card-link:active {
-    color: rgba(20, 175, 202, 1);
 }
 
 /* ----------------------- */
