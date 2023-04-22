@@ -4,7 +4,7 @@ html {
 }
 
 body {
-    background: white;
+    background: rgb(0, 0, 0);
 }
 
 /* ------------------- */
@@ -23,7 +23,7 @@ div.header {
 div.header-first-triangle {
     width: 0; 
     height: 0; 
-    border-bottom: 100px solid white; 
+    border-bottom: 100px solid rgb(0, 0, 0); 
     border-right: 700px solid transparent;
     float: left;
     position: absolute;
@@ -34,7 +34,7 @@ div.header-first-triangle {
 div.header-second-triangle {
     width: 0; 
     height: 0; 
-    border-bottom: 100px solid white; 
+    border-bottom: 100px solid rgb(0, 0, 0); 
     border-left: 700px solid transparent; 
     position: absolute;
     bottom: 0;
@@ -46,7 +46,7 @@ div.header-info {
     margin: auto;
     display: flex;
     align-items: center;
-    background-color: white;
+    background-color: rgb(0, 0, 0);
     margin-top: 30px;
     position: absolute;
 }
@@ -58,13 +58,13 @@ a.header-main-link {
 p.header-title {
     font-size: 36px;
     font-weight: 300;
-    color: rgba(66, 79, 87, 1);
+    color: rgb(175, 175, 175);
     line-height: 36px;
     margin: 40px 0 40px 200px ;
 }
 
 p span {
-    color: rgba(20, 175, 202, 1);
+    color: rgb(18, 137, 158);
     font-weight: 900;
     line-height: 36px;
 }
@@ -83,12 +83,12 @@ a.header-menu-link {
     font-weight: 700;
     font-size: 15px;
     line-height: 20px;
-    color: rgba(62, 76, 78, 1);
+    color: rgb(175, 175, 175);
     margin-right: 40px;
 }
 
 a.header-menu-link:hover {
-    color: rgba(20, 175, 202, 1);
+    color: rgb(18, 137, 158);
 }
 
 li:first-child {
@@ -116,7 +116,7 @@ p.header-paragraph {
 div.body-first-section {
     width: 1400px;
     margin: auto;
-    background-color: rgba(255, 255, 255, 1);
+    background-color: rgb(0, 0, 0);
 }
 
 div.first-section-info {
@@ -130,7 +130,7 @@ div.first-section-info {
 }
 
 h2.first-section-title {
-    color: rgba(20, 175, 202, 1);
+    color: rgb(18, 137, 158);
     font-size: 60px;
     line-height: 40px;
     font-weight: 900;
@@ -140,7 +140,7 @@ h2.first-section-title {
 }
 
 p.first-section-paragraph {
-    color: rgba(66, 79, 87, 1);
+    color: rgb(175, 175, 175);
     font-weight: 700;
     font-size: 18px;
     line-height: 40px;
@@ -150,7 +150,7 @@ p.first-section-paragraph {
 }
 
 p.first-section-second-paragraph {
-    color: rgba(66, 79, 87, 1);
+    color: rgb(175, 175, 175);
     font-weight: 400;
     font-size: 16px;
     line-height: 30px;
@@ -174,7 +174,7 @@ div.body-second-section {
 div.second-body-triangle {
     width: 0; 
     height: 0; 
-    border-top: 100px solid white; 
+    border-top: 100px solid rgb(0, 0, 0); 
     border-right: 700px solid transparent; 
     position: absolute;
     top: 0;
@@ -184,7 +184,7 @@ div.second-body-triangle {
 div.first-body-triangle {
     width: 0; 
     height: 0; 
-    border-top: 100px solid white; 
+    border-top: 100px solid rgb(0, 0, 0); 
     border-left: 700px solid transparent;
     float: left;
     position: absolute;
@@ -199,7 +199,7 @@ div.second-section-info {
 }
 
 h2.second-section-title {
-    color: rgba(20, 175, 202, 1);
+    color: rgb(18, 137, 158);
     font-weight: 700;
     font-size: 60px;
     line-height: 75px;
@@ -208,7 +208,7 @@ h2.second-section-title {
 }
 
 p.second-section-paragraph {
-    color: rgba(255, 255, 255, 1);
+    color: rgb(175, 175, 175);
     font-weight: 600;
     font-size: 18px;
     line-height: 75px;
@@ -272,7 +272,7 @@ div.third-section-content {
 }
 
 h2.third-section-title {
-    color: rgba(20, 175, 202, 1);
+    color: rgb(18, 137, 158);
     font-weight: 700;
     font-size: 60px;
     line-height: 40px;
@@ -281,7 +281,7 @@ h2.third-section-title {
 }
 
 p.third-section-paragraph {
-    color: rgba(66, 79, 87, 1);
+    color: rgb(175, 175, 175);
     font-weight: 400;
     font-size: 18px;
     text-align: center;
@@ -303,6 +303,7 @@ p.card-info {
     font-size: 15px;
     letter-spacing: 0.9px;
     line-height: 28px;
+    color: rgb(175, 175, 175);
 }
 
 div.third-section-about-card {
@@ -334,7 +335,7 @@ div.fourth-section-title {
 }
 
 h2.fourth-section-main-title {
-    color: rgba(20, 175, 202, 1);
+    color: rgb(18, 137, 158);
     font-weight: 700;
     font-size: 60px;
     line-height: 40px;
@@ -348,13 +349,13 @@ p.fourth-section-title-text {
     font-size: 18px;
     line-height: 40px;
     letter-spacing: 1.9px;
-    color: rgba(255, 255, 255, 1);
+    color: rgb(175, 175, 175);
     text-align: center;
     padding-top: 20px;
 }
 
 p.fourth-section-main-paragraph {
-    color: rgba(211, 204, 204, 1);
+    color: rgb(175, 175, 175);
     font-size: 16px;
     line-height: 28px;
     letter-spacing: 0.9px;
@@ -363,7 +364,7 @@ p.fourth-section-main-paragraph {
 }
 
 h3.fourth-secton-span {
-    color: rgba(255, 255, 255, 1);
+    color: rgb(175, 175, 175);
     font-size: 18px;
     line-height: 24px;
     text-align: right;
@@ -386,7 +387,7 @@ div.footer-content {
 
 h2.footer-title {
     text-align: center;
-    color: rgba(20, 175, 202, 1);
+    color: rgb(18, 137, 158);
     font-size: 60px;
     line-height: 40px;
     letter-spacing: 1.5px;
@@ -394,7 +395,7 @@ h2.footer-title {
 }
 
 p.footer-title-text {
-    color: rgba(66, 79, 87, 1);
+    color: rgb(175, 175, 175);
     text-align: center;
     font-size: 18px;
     letter-spacing: 0.45px;
@@ -403,7 +404,7 @@ p.footer-title-text {
 }
 
 p.main-footer-text {
-    color: rgba(66, 79, 87, 1);
+    color: rgb(175, 175, 175);
     text-align: center;
     font-weight: 700;
     font-size: 30px;
@@ -420,10 +421,11 @@ p.footer-last-paragraph {
     letter-spacing: 0.7px;
     padding-top: 100px;
     margin-bottom: 100px;
+    color: rgb(175, 175, 175);
 }
 
 p span.footer-span {
-    color: rgba(61, 60, 60, 1);
+    color: rgb(175, 175, 175);
     letter-spacing: 0.8px;
     font-size: 16px;
 }
